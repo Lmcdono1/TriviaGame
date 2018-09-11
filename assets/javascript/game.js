@@ -187,7 +187,7 @@ function timer() {
     };
     
 
-// 6. Reset button on page to start game over
+// 4. Reset button on page to start game over
 // function gameReset(){
     
 // }
