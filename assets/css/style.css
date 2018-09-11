@@ -1,0 +1,68 @@
+/* BACKGROUND________________________________*/
+.container {
+    background-image: url('../images/IMG_3239.jpg');
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    overflow: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* MAIN CONTAINER______________________________*/
+.jumbotron {
+   background-color: rgb(0, 34, 45);
+   margin-top: 1%;
+   margin-left: 20%;
+   margin-right: 20%;
+   margin-bottom: 5%;
+   /*margin: 0 auto;
+   /*width: 100%;*/
+   padding-left: 1%;
+   padding-right: 1%;
+   padding-top: 1%;
+   padding-bottom: 2%;
+   border-radius: 15px;
+    color: white;
+   /*position: absolute;*/
+   border: 2px solid white;
+      
+}
+
+#timer{
+    color: rgb(153, 255, 102);
+}
+
+.header{
+    text-align: center;
+    color: white;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 20px;
+}
+
+.button-start{
+    text-align: center;
+
+}
+
+.button-submit{
+    text-align: center;
+}
+
+button.pure-button-primary {
+    background: rgb(153, 255, 102);
+    color: rgb(0, 34, 45);
+    font-size: 120%;
+    padding: 0.5em 2em;
+    border-radius: 15px;
+    font-family: 'Varela Round', sans-serif;
+}
+
+/* RESULTS___________________________________*/
+#results {
+    text-align: center;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 25px;
+    color: white;
+}

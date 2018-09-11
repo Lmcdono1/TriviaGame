@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Trivia Game</title>
+    <link href="https://fonts.googleapis.com/css?family=Frijole" rel="stylesheet">
+    <!-- My CSS -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <!--Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
+    <!--Pure.CSS-->
+    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/grids-responsive-min.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="jumbotron">
+            <div class="header">
+            <h1>Mechanic Trivia</h1>
+
+            <div id="timer">
+                <h2>Seconds Remaining: </h2>
+            </div>
+            </div>
+            <!--Start Game Button-->
+            <p class="button-start">
+                <button type="submit" class="pure-button pure-button-primary">Play</button>
+            </p>
+            <!--Where Questions will show-->
+            <div id="questionsDisplay"></div>
+            <br>
+            <br>
+            <!--Submit Answers Button (if done before timer)-->
+            <div class="button-submit">
+                <button type="submit" class="pure-button pure-button-primary">Submit</button>
+            </div> 
+            <!--Where Results will show-->
+            <div id="results">
+                <div id="correctAnswers"> Correct Answers: </div>
+                <div id="incorrectAnswers"> Incorrect Answers: </div>
+                <p class="button-reset">
+                    <button type="submit" class="pure-button pure-button-primary">Reset</button>
+                </p>
+            </div>
+
+        </div>
+
+        <!-- JQuery -->
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <!--<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script> -->
+        <!-- My JS -->
+        <script type="text/javascript" src="assets/javascript/game.js"></script>
+        <!-- JQuery UI -->
+        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="
+            crossorigin="anonymous"></script>
+</body>
+
+</html>
